@@ -461,3 +461,26 @@ body{
     background-color: white;
     color: #3F72AF;
 }
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo {
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size:20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size:14px;
+    margin: 0 0 8px 0;
+}
